@@ -1,5 +1,5 @@
 import React from 'react';
-import { Formik, Form, Field, useFormik } from 'formik';
+import { Formik, Form, Field } from 'formik';
 
 const AddBug = () => {
   let validate = (value) => {
