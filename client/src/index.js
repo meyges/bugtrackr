@@ -58,9 +58,9 @@ const jsx = (
       </aside>
 
       <Switch>
-        <AuthRoute exact path="/" component={Home} />
+        <Route exact path="/" component={App} />
+        <AuthRoute exact path="/home" component={Home} />
         <AuthRoute path="/addbug" component={AddBug} />
-        {/* <Route exact path="/" component={App} /> */}
       </Switch>
     </Router>
   </Provider>

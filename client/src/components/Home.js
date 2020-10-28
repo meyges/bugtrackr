@@ -10,12 +10,20 @@ const Home = () => {
           <li>Bug Type</li>
           <li>Status</li>
         </ul>
-        <ul className="bug">
-          <li>Project Name</li>
-          <li>Description</li>
-          <li>Bug Type</li>
-          <li>Status</li>
-        </ul>
+        <div id="groupName">
+          <ul className="bug">
+            <li>Project Name</li>
+            <li>Description</li>
+            <li>Bug Type</li>
+            <li>Status</li>
+          </ul>
+          <ul className="bug-detail">
+            <li>Project Name</li>
+            <li>Description</li>
+            <li>Bug Type</li>
+            <li>Status</li>
+          </ul>
+        </div>
       </main>
     </div>
   );
